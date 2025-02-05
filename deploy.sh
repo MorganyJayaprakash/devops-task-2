@@ -3,6 +3,6 @@
     sh 'chmod +x build.sh'
     sh './build.sh'
     docker login -u morganyy -p 1234567890
-    docker tag test laleth/task
-    docker push laleth/task
+    docker tag test morganyy/task_2
+    docker push morgany/task_2
     
